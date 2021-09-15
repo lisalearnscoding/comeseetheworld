@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- The extras in my page are: 1: a sticky footer, 2: Google Maps embedding on the Places page, 3: a contact formular, 4: Google Fonts, 5: Font Awesome symbols-->
+<html lang ="en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Come See the World - Places</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/52809c8829.js" crossorigin="anonymous"></script>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Amatic+SC:wght@700&family=Poppins:wght@200;500&display=swap');
+</style> 
+</head>
+<body>
+<main id="container">
+<header>
+  <img class="logo" src=css/images/worldwide.png alt="logo in the shape of a globe">
+  <nav>
+      <a class="nav__links" href="index.html"><span class="fas fa-home symbols"></span> Home</a>
+      <a class="nav__links" href="places.html"><span class="fas fa-thumbtack symbols"></span> Places</a>
+      <a class="nav__links" href="blog.html"><span class="fas fa-pen symbols"></span> Blog</a>
+  </nav>
+  <a class="contact" href="contact.html" id="button">Contact</a>
+</header>
+<section>
+<div class="content">
+  <h1>
+   <a href="index.html">Come See the World</a>
+  </h1>
+  <h2>Some of the most beautiful places I know about...</h2>
+  <p>Here, you find a collection of beautiful places around the world. Hover over each picture to see the name of the location and also feel free to discover the places via the embedded Google Maps Links.</p>
+<div>
+  <h3>Kyoto, Japan</h3>
+  <div class="responsivepic"><img class="pic" src=css/images/kyoto.jpg alt="street in kyoto" title="Kyoto, Japan">
+  <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Kyoto,%20Japan&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
+  <h3>Marsaxlokk, Malta</h3>
+  <div class="responsivepic"><img class="pic" src=css/images/malta.jpg alt="harbour in a small village in malta with boats" title="Marsaxlokk, Malta">
+  <div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=malta&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
+  <h3>Goa, India</h3>
+  <div class="responsivepic"><img class="pic" src=css/images/goa.jpg alt="beach in goa" title="Goa, India">
+  <div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=goa%20beach&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+  <small>&copy; Come See the World</small>
+</footer>
+</body>
